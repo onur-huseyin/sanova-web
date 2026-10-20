@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 export function FloatingSideBox() {
   const primary = site.phones[0];
   const whatsappHref = `${primary.whatsapp}?text=${encodeURIComponent(
-    "Merhaba SANOVA, teknik hizmet hakkında bilgi almak istiyorum.",
+    "Merhaba SANOVA, elektrik / mekanik bakım veya pompa revizyonu hakkında bilgi almak istiyorum.",
   )}`;
 
   return (

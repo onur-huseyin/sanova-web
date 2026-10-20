@@ -15,8 +15,8 @@ export function Footer() {
             className="h-9 w-auto"
           />
           <p className="mt-5 max-w-sm text-sm leading-relaxed text-trust/80">
-            Havuz sistemleri, pompa otomasyonu, villa teknik sistemleri ve
-            elektrik bakım hizmetlerinde premium teknik çözüm ortağı.
+            Elektrik bakım onarım, mekanik bakım onarım ve pompa sistemleri
+            revizyonunda güvenilir teknik çözüm ortağı.
           </p>
         </div>
 

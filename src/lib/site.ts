@@ -1,10 +1,19 @@
 export const site = {
   name: "SANOVA",
-  tagline: "Villalar, bungalovlar ve akıllı evler için premium hizmet",
+  tagline: "Elektrik ve mekanik bakımda güvenilir teknik çözümler.",
   description:
-    "Esenyurt ve Akçaburgaz’da havuz sistemleri, pompa otomasyonu, villa teknik servis ve elektrik bakım hizmetleri.",
+    "İstanbul, Bursa, İzmir, Yalova, Düzce ve Sakarya’da elektrik bakım onarım, mekanik bakım onarım ve pompa sistemleri revizyonu hizmetleri.",
   location: "İstanbul, Bursa, İzmir, Yalova, Düzce, Sakarya",
-  areaServed: ["Esenyurt", "Akçaburgaz", "İstanbul"],
+  areaServed: [
+    "İstanbul",
+    "Bursa",
+    "İzmir",
+    "Yalova",
+    "Düzce",
+    "Sakarya",
+    "Esenyurt",
+    "Akçaburgaz",
+  ],
   phones: [
     {
       display: "0543 371 7431",
@@ -28,74 +37,74 @@ export const site = {
 
 export const services = [
   {
-    id: "havuz",
-    title: "Havuz Sistemleri",
-    image: "/images/havuz.jpg",
-    imageAlt: "Modern villa havuzu ve teknik sistem görünümü",
+    id: "elektrik",
+    title: "Elektrik Bakım ve Onarım",
+    image: "/images/elektrik.jpg",
+    imageAlt: "Elektrik panel ve bakım onarım çalışması",
     summary:
-      "Havuz teknik sistemleri, ekipman kurulumu ve kontrolü ile bakım ve arıza çözümlerini tek çatı altında yönetiyoruz.",
+      "Elektrik arıza tespiti, tesisat bakım-onarımı ve periyodik kontrollerle sistemlerinizin güvenli ve kesintisiz çalışmasını sağlıyoruz.",
     points: [
-      "Havuz teknik sistemleri",
-      "Ekipman kurulumu ve kontrolü",
-      "Bakım ve arıza çözümleri",
+      "Elektrik arıza tespiti ve giderimi",
+      "Tesisat bakım ve onarım",
+      "Periyodik kontrol ve teknik destek",
+    ],
+  },
+  {
+    id: "mekanik",
+    title: "Mekanik Bakım ve Onarım",
+    image: "/images/villa.jpg",
+    imageAlt: "Mekanik sistem ve teknik ekipman bakımı",
+    summary:
+      "Mekanik ekipmanların bakımı, onarımı ve düzenli çalışması için yerinde keşif, teşhis ve uygulama odaklı teknik hizmet sunuyoruz.",
+    points: [
+      "Mekanik ekipman bakımı",
+      "Arıza teşhisi ve onarım",
+      "Sistem kontrol ve düzenli bakım",
     ],
   },
   {
     id: "pompa",
-    title: "Pompa ve Otomasyon",
+    title: "Pompa Sistemleri Revizyonu",
     image: "/images/pompa.jpg",
-    imageAlt: "Pompa ve otomasyon ekipmanı detayı",
+    imageAlt: "Pompa sistemi revizyon ve bakım çalışması",
     summary:
-      "Pompa sistemleri kurulumu, kontrol ve otomasyon çözümleri ile teknik arıza tespiti ve sistem kontrolleri sunuyoruz.",
+      "Pompa sistemlerinin revizyonu, performans iyileştirmesi, kontrol paneli ve otomasyon güncellemeleriyle verimli ve güvenilir çalışma hedefleriz.",
     points: [
-      "Kurulum ve bakım",
-      "Kontrol ve otomasyon",
-      "Arıza tespiti ve kontroller",
+      "Pompa revizyonu ve yenileme",
+      "Performans ve verimlilik kontrolü",
+      "Kontrol, otomasyon ve arıza çözümleri",
     ],
   },
   {
-    id: "villa",
-    title: "Villa Teknik Sistemleri",
-    image: "/images/villa.jpg",
-    imageAlt: "Modern villa dış görünümü",
+    id: "havuz",
+    title: "Havuz Teknik Destek",
+    image: "/images/havuz.jpg",
+    imageAlt: "Havuz teknik sistem ve ekipman görünümü",
     summary:
-      "Villa teknik altyapı sistemleri ve elektrik kontrol hizmetleriyle yaşam alanlarınızın düzenli çalışmasını destekliyoruz.",
+      "Havuz teknik sistemlerinde elektrik-mekanik destek, ekipman kontrolü ve arıza çözümleriyle tamamlayıcı hizmet veriyoruz.",
     points: [
-      "Teknik altyapı sistemleri",
-      "Elektrik kontrol ve bakım",
-      "Güvenilir çalışma çözümleri",
-    ],
-  },
-  {
-    id: "elektrik",
-    title: "Elektrik Bakım ve Onarım",
-    image: "/images/elektrik.jpg",
-    imageAlt: "Elektrik panel ve teknik bakım çalışması",
-    summary:
-      "Elektrik arıza tespiti, tesisat bakım-onarımı ve periyodik kontrol ile teknik destek sağlıyoruz.",
-    points: [
-      "Arıza tespiti",
-      "Tesisat bakım ve onarım",
-      "Periyodik kontrol ve destek",
+      "Havuz ekipman kontrolü",
+      "Teknik arıza desteği",
+      "Bakım ve sistem kontrolü",
     ],
   },
 ] as const;
 
 export const whyPoints = [
   {
-    title: "Güvenilir hizmet anlayışı",
-    text: "Her işte net iletişim, planlı ilerleme ve sonuç odaklı teknik yaklaşım esas alınır.",
+    title: "Güvenilir teknik yaklaşım",
+    text: "Elektrik ve mekanik işlerde net teşhis, planlı uygulama ve açık iletişim esas alınır.",
   },
   {
     title: "Sistemli çalışma",
-    text: "Keşif, teşhis ve uygulama süreçlerini düzenli bir akışla yöneterek sürprizleri azaltırız.",
+    text: "Keşif, teşhis, revizyon ve kontrol adımlarını düzenli bir akışla yöneterek sürprizleri azaltırız.",
   },
   {
-    title: "Teknik çözüm odaklılık",
-    text: "Havuz, pompa, villa ve elektrik sistemlerinde sorunun kaynağına odaklanırız.",
+    title: "Pompa ve mekanik uzmanlığı",
+    text: "Pompa sistemleri revizyonunda ve mekanik bakımda sorunun kaynağına odaklanırız.",
   },
   {
     title: "Erişilebilir iletişim",
-    text: "Telefon ve WhatsApp üzerinden hızlı ulaşım; ihtiyaçlarınızı birlikte netleştiririz.",
+    text: "Telefon ve WhatsApp üzerinden hızlı ulaşım; ihtiyacınızı birlikte netleştiririz.",
   },
 ] as const;

@@ -14,20 +14,19 @@ export function About() {
             SANOVA Hakkında
           </p>
           <h2 className="font-display mt-4 text-3xl font-semibold tracking-tight text-text md:text-4xl">
-            Teknik uzmanlık ve{" "}
-            <span className="text-accent">çözüm odaklı</span> yaklaşım
+            Elektrik ve mekanikte{" "}
+            <span className="text-accent">çözüm odaklı</span> hizmet
           </h2>
           <p className="mt-6 text-base leading-relaxed text-trust/85 md:text-lg">
-            SANOVA; havuz sistemleri, pompa otomasyonu, villa teknik altyapı ve
-            elektrik bakım alanında profesyonel hizmet sunar. Amacımız, yaşam
-            alanlarınızın teknik sistemlerini güvenilir ve düzenli biçimde
-            çalışır durumda tutmaktır.
+            SANOVA; elektrik bakım onarım, mekanik bakım onarım ve pompa
+            sistemleri revizyonu alanlarında profesyonel teknik hizmet sunar.
+            Amacımız, sistemlerinizin güvenli, verimli ve düzenli biçimde
+            çalışmasını desteklemektir.
           </p>
           <p className="mt-4 text-base leading-relaxed text-muted md:text-lg">
-            Esenyurt ve Akçaburgaz başta olmak üzere İstanbul’da villa sahipleri,
-            müstakil ev sahipleri ve site yönetimleri için sade iletişim ve net
-            teknik değerlendirme ile ilerleriz. Her proje, yerinde ihtiyaç
-            analiziyle şekillenir.
+            İstanbul, Bursa, İzmir, Yalova, Düzce ve Sakarya’da villa, müstakil
+            ev ve işletme sahipleriyle sade iletişim ve net teknik değerlendirme
+            ile ilerleriz. Her iş, yerinde ihtiyaç analiziyle şekillenir.
           </p>
         </FadeIn>
 
@@ -35,7 +34,7 @@ export function About() {
           <div className="relative aspect-[4/3] overflow-hidden rounded-3xl ring-1 ring-accent/20 md:aspect-[5/4]">
             <Image
               src="/images/about.jpg"
-              alt="Modern villa mimarisi ve teknik yaşam alanı"
+              alt="Teknik sistem bakım ve mekanik altyapı"
               fill
               sizes="(max-width: 768px) 100vw, 55vw"
               className="object-cover"
@@ -44,7 +43,7 @@ export function About() {
           </div>
           <p className="mt-4 flex items-center gap-2.5 text-sm text-trust">
             <IconShield size={28} />
-            Premium yaşam alanları için teknik sistem yönetimi
+            Elektrik, mekanik bakım ve pompa revizyonunda güvenilir destek
           </p>
         </FadeIn>
       </div>

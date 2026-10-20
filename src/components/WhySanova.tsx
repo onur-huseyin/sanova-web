@@ -37,9 +37,9 @@ export function WhySanova() {
                 Güven veren teknik hizmet deneyimi
               </h2>
               <p className="mt-5 max-w-xl text-base leading-relaxed text-trust/85 md:text-lg">
-                Havuz pompası bakım hizmetlerinden elektrik bakım ve onarıma
-                kadar her adımda ölçülebilir, anlaşılır ve uygulanabilir çözümler
-                sunuyoruz.
+                Elektrik bakım onarımdan mekanik bakıma, pompa sistemleri
+                revizyonundan teknik arıza çözümlerine kadar her adımda
+                ölçülebilir ve uygulanabilir çözümler sunuyoruz.
               </p>
             </FadeIn>
 

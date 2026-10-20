@@ -13,10 +13,10 @@ import { services } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 const serviceIcons = {
-  havuz: IconPool,
-  pompa: IconPump,
-  villa: IconVilla,
   elektrik: IconElectric,
+  mekanik: IconVilla,
+  pompa: IconPump,
+  havuz: IconPool,
 } as const;
 
 export function Services() {
@@ -31,12 +31,12 @@ export function Services() {
             Hizmetlerimiz
           </p>
           <h2 className="font-display mt-4 max-w-2xl text-3xl font-semibold tracking-tight text-text md:text-4xl lg:text-5xl">
-            Teknik sistemleriniz için kapsamlı çözümler
+            Elektrik, mekanik bakım ve pompa revizyonu
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-trust/85 md:text-lg">
-            Esenyurt havuz sistemleri, Akçaburgaz pompa otomasyonu, villa teknik
-            servis ve elektrik bakım ihtiyaçlarınızı profesyonel bir yaklaşımla
-            ele alıyoruz.
+            Elektrik bakım onarım, mekanik bakım onarım ve pompa sistemleri
+            revizyonu başta olmak üzere teknik ihtiyaçlarınızı yerinde keşif ve
+            net teşhisle ele alıyoruz.
           </p>
         </FadeIn>
 

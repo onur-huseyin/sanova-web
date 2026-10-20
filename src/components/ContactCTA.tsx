@@ -6,10 +6,10 @@ import { IconPhone, IconPin, IconWhatsApp } from "@/components/icons/BrandIcons"
 import { site } from "@/lib/site";
 
 const serviceOptions = [
-  "Havuz Sistemleri",
-  "Pompa ve Otomasyon",
-  "Villa Teknik Sistemleri",
   "Elektrik Bakım ve Onarım",
+  "Mekanik Bakım ve Onarım",
+  "Pompa Sistemleri Revizyonu",
+  "Havuz Teknik Destek",
   "Diğer / Belirsiz",
 ];
 
@@ -35,8 +35,8 @@ export function ContactCTA() {
             İletişim
           </p>
           <h2 className="font-display mt-4 max-w-3xl text-3xl font-semibold tracking-tight text-text md:text-4xl lg:text-5xl">
-            Teknik ihtiyaçlarınız için doğru çözümü{" "}
-            <span className="text-accent">birlikte</span> belirleyelim.
+            Elektrik, mekanik veya pompa ihtiyacınızı{" "}
+            <span className="text-accent">birlikte</span> netleştirelim.
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-trust/85 md:text-lg">
             Telefon veya WhatsApp üzerinden bize ulaşın. Hizmet bölgemiz:{" "}

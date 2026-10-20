@@ -54,8 +54,8 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.32 }}
         >
-          Havuz sistemlerinden pompa otomasyonuna, villa teknik altyapısından
-          elektrik bakım ve onarımına kadar profesyonel çözümler.
+          Elektrik bakım onarımdan mekanik sistem bakımına, pompa sistemleri
+          revizyonundan teknik arıza çözümlerine kadar profesyonel hizmet.
         </motion.p>
 
         <motion.div

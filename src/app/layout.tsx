@@ -30,7 +30,8 @@ export const metadata: Metadata = {
   creator: site.name,
   publisher: site.name,
   category: "business",
-  classification: "Havuz sistemleri, pompa otomasyonu, villa teknik servis",
+  classification:
+    "Elektrik bakım onarım, mekanik bakım onarım, pompa sistemleri revizyonu",
   formatDetection: {
     telephone: true,
     email: false,
@@ -94,7 +95,7 @@ export const metadata: Metadata = {
     : undefined,
   other: {
     "geo.region": "TR-34",
-    "geo.placename": "Esenyurt, Akçaburgaz, İstanbul",
+    "geo.placename": "İstanbul, Bursa, İzmir, Yalova, Düzce, Sakarya",
   },
 };
 

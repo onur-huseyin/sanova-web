@@ -15,7 +15,7 @@ export function JsonLd() {
     telephone: site.phones.map((p) => p.e164),
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Esenyurt",
+      addressLocality: "İstanbul",
       addressRegion: "İstanbul",
       addressCountry: "TR",
     },
@@ -41,12 +41,12 @@ export function JsonLd() {
     image: [
       `${siteUrl}${seo.ogImage.url}`,
       `${siteUrl}/images/hero.jpg`,
-      `${siteUrl}/images/havuz.jpg`,
+      `${siteUrl}/images/elektrik.jpg`,
     ],
     telephone: primaryPhone,
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Esenyurt",
+      addressLocality: "İstanbul",
       addressRegion: "İstanbul",
       addressCountry: "TR",
     },

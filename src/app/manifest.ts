@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "SANOVA — Havuz, Pompa ve Villa Teknik Sistemleri",
+    name: "SANOVA — Elektrik, Mekanik Bakım ve Pompa Revizyonu",
     short_name: "SANOVA",
     description: site.description,
     start_url: "/",
