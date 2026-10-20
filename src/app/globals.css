@@ -1,26 +1,94 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #06140c;
+  --surface: #0c1f14;
+  --surface-elevated: #132a1c;
+  --text: #f0fdf4;
+  --muted: #86b89a;
+  --accent: #34d399;
+  --accent-strong: #22c55e;
+  --accent-soft: rgba(52, 211, 153, 0.18);
+  --accent-glow: rgba(74, 222, 128, 0.32);
+  --border: rgba(134, 239, 172, 0.16);
+  --pill: #ecfdf5;
+  --pill-text: #052e16;
+  --whatsapp: #25d366;
+  --whatsapp-soft: rgba(37, 211, 102, 0.16);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-glow: var(--accent-glow);
+  --color-border: var(--border);
+  --color-pill: var(--pill);
+  --color-pill-text: var(--pill-text);
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-soft: var(--whatsapp-soft);
+  --font-display: var(--font-outfit);
+  --font-sans: var(--font-manrope);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(ellipse 80% 50% at 100% 0%, rgba(34, 197, 94, 0.12), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 0% 40%, rgba(16, 185, 129, 0.08), transparent 50%),
+    var(--bg);
+  color: var(--text);
+  font-family: var(--font-manrope), sans-serif;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.font-display {
+  font-family: var(--font-outfit), sans-serif;
+}
+
+.section-green {
+  background:
+    linear-gradient(180deg, rgba(20, 83, 45, 0.22) 0%, rgba(6, 20, 12, 0) 100%),
+    var(--surface);
+}
+
+.section-green-soft {
+  background:
+    radial-gradient(ellipse at center, rgba(34, 197, 94, 0.1), transparent 70%),
+    transparent;
+}
+
+.text-trust {
+  color: #a7f3d0;
 }

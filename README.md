@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SANOVA — Premium Kurumsal Web Sitesi
 
-## Getting Started
+SANOVA markası için havuz sistemleri, pompa otomasyonu, villa teknik sistemleri ve elektrik bakım hizmetlerini tanıtan tek sayfalık premium kurumsal site.
 
-First, run the development server:
+## Teknolojiler
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Motion
+- Vaul (mobil menü)
+- Lucide Icons
+
+## Kurulum
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tarayıcıda: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Üretim derlemesi
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Site URL (SEO)
 
-To learn more about Next.js, take a look at the following resources:
+Canlı domain’i ortam değişkeni ile tanımlayın. Sitemap, robots, canonical ve JSON-LD bu değeri kullanır:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# .env.local
+NEXT_PUBLIC_SITE_URL=https://www.sanova.com.tr
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Varsayılan (tanımlanmazsa): `https://www.sanova.com.tr`
 
-## Deploy on Vercel
+### Google Search Console
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Siteyi doğrulayın (HTML etiketi veya DNS).
+2. `https://YOUR-DOMAIN/sitemap.xml` adresini gönderin.
+3. `https://YOUR-DOMAIN/robots.txt` erişimini kontrol edin.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Favicon
+
+Favicon seti `public/` ve `src/app/` altında üretilir:
+
+```bash
+npm run generate:favicons
+```
+
+Dosyalar: `favicon.ico`, `icon.svg`, `apple-touch-icon.png`, `icons/icon-192.png`, `icons/icon-512.png`
+
+## Logo üretimi
+
+```bash
+npm run generate:logos
+```
+
+Şeffaf PNG logolar: `public/logos/sanova-black.png`, `public/logos/sanova-white.png`
+
+## İletişim bağlantıları
+
+- Telefon: `tel:+905433717431`, `tel:+905550116914`
+- WhatsApp: `https://wa.me/905433717431`, `https://wa.me/905550116914`
+
+İletişim formu yalnızca yerel not tutar; gerçek gönderim yoktur. Kullanıcı telefon veya WhatsApp’a yönlendirilir.
+
+## Hizmet bölgesi
+
+Esenyurt, Akçaburgaz, İstanbul
+
+## SEO özeti
+
+- Canonical URL + Open Graph / Twitter kartları
+- `robots.ts` ve `sitemap.ts`
+- Web App Manifest
+- Schema.org `@graph`: Organization, LocalBusiness, WebSite, WebPage, Service kataloğu
+- Yerel anahtar kelimeler doğal içerikte (uydurma adres / çalışma saati yok)
