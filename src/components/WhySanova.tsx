@@ -19,12 +19,22 @@ export function WhySanova() {
             <div className="relative aspect-[3/4] overflow-hidden rounded-3xl ring-1 ring-accent/20">
               <Image
                 src="/images/why.jpg"
-                alt="Yüksek kaliteli villa mimarisi detayı"
+                alt="Premium villa yaşam alanı — SANOVA teknik hizmet kalitesi"
                 fill
                 sizes="(max-width: 768px) 100vw, 40vw"
-                className="object-cover"
+                className="object-cover object-center"
+                priority={false}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-bg/70 via-transparent to-accent/10" />
+              <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/20 to-accent/10" />
+              <div className="absolute inset-x-0 bottom-0 p-5 md:p-6">
+                <p className="font-display text-xs font-semibold tracking-[0.2em] text-accent uppercase">
+                  Premium Hizmet
+                </p>
+                <p className="mt-1.5 text-sm leading-snug text-trust md:text-base">
+                  Elektrik, mekanik ve pompa sistemlerinde güvenilir teknik
+                  standart
+                </p>
+              </div>
             </div>
           </FadeIn>
 
